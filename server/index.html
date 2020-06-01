@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Yay</title>
+    <script type="text/javascript">
+      window.onmessage = (event) => {
+        console.log('Parent received', event);
+        const name = event.data.split(' ');
+        event.source.window.postMessage('CALL_FROM_PARENT: Hello ' + name[name.length - 1], '*');
+      }
+    </script>
+  </head>
+  <body>
+    <div>
+      <div>
+        <h3>Widget:</h3>
+        <div style="border: 1px solid #000; display: inline-block;">
+          <iframe id="test1" width="200px" height="200px" src="https://0b3dd2920fb1.ngrok.io/provision/sdm.ui.widget/1234-1234566-123123/test.js?user=Bob">
+          </iframe>
+        </div>
+      </div>
+      <br />
+      <div>
+        <h3>Widget:</h3>
+        <div style="border: 1px solid #000; display: inline-block;">
+          <iframe id="test2" width="200px" height="200px" src="https://0b3dd2920fb1.ngrok.io/provision/sdm.ui.widget/1234-1234566-123123/test.js?user=Mike">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

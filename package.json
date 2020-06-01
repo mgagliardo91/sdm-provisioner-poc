@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.0.2",
+    "eslint-config-react-app": "^5.2.1"
+  }
+}

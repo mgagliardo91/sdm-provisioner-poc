@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/michael/.nvm/versions/node/v13.7.0/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js init
+
+PATH: 
+  /Users/michael/Downloads/google-cloud-sdk/bin:/Users/michael/.nvm/versions/node/v13.7.0/bin:/Users/michael/.jenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/michael/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Users/michael/.go/bin:/usr/local/opt/go/libexec/bin:/Users/michael/projects/sdm/sdm-utils/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  13.7.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:137008:13)
+      at Interface.emit (events.js:321:20)
+      at Interface._ttyWrite (readline.js:864:16)
+      at ReadStream.onkeypress (readline.js:203:10)
+      at ReadStream.emit (events.js:321:20)
+      at emitKeys (internal/readline/utils.js:450:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1131:36)
+      at ReadStream.emit (events.js:321:20)
+      at addChunk (_stream_readable.js:297:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
