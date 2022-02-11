@@ -18,7 +18,7 @@
     "@types/pg": "^7.14.3",
     "express": "^4.17.1",
     "express-fileupload": "^1.1.7-alpha.3",
-    "express-handlebars": "^4.0.4",
+    "express-handlebars": "^5.3.1",
     "install": "^0.13.0",
     "pg": "^8.2.1"
   },
